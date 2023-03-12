@@ -1,16 +1,23 @@
 # alcoolgasolina
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+
+
+Como eu me baseei em um curso mais antigo, nas funções submit, algumas outras e tambem a biblioteca do metodo MoneyMask. Houve um problema com a verificação de nulibiliade.
+
+Para executar deve-se escrever os seguintes comandos no terminal:
+
+```
+dart --no-sound-null-safety run      
+flutter run --no-sound-null-safety
+```
+
+E para gerar o apk:
+```
+flutter build apk --no-sound-null-safety --split-per-abi
+```
